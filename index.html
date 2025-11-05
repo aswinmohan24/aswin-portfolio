@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/favicon.ico" /> -->
+     <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aswin Mohanan</title>
+    <meta name="description" content="Aswin is a passionate Flutter developer building modern, high-performance mobile apps focused on design and functionality.">
+    <meta name="keywords" content="Aswin, Flutter Developer, Portfolio, Mobile App Developer, Firebase, FastAPI, React">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <style>
+      html {
+        scroll-padding-top: 7rem; /* Offset for fixed navbar */
+      }
+      
+      body {
+        font-family: 'Outfit', sans-serif;
+        color: #E5E7EB;
+        background: radial-gradient(circle at 50% 50%, #0B2A44 0%, #081A2A 45%, #030609 100%);
+        background-attachment: fixed;
+      }
+
+      #root {
+          position: relative;
+          z-index: 1;
+      }
+
+      .font-handlee {
+        font-family: 'Handlee', cursive;
+      }
+
+      @keyframes scroll {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+      }
+
+      .animate-scroll {
+        animation: scroll 10s linear infinite;
+      }
+
+      .group:hover .animate-scroll {
+        animation-play-state: paused;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
