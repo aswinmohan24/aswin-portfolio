@@ -78,7 +78,7 @@ const Projects: React.FC = () => {
           <FolderIcon className="w-8 h-8" />
           Projects
         </h2>
-        <a 
+        {/* <a 
           href="https://github.com/aswinmohan24" 
           target="_blank" 
           rel="noopener noreferrer"
@@ -86,7 +86,7 @@ const Projects: React.FC = () => {
           className="p-2 bg-white/10 rounded-full hover:bg-white/20 transition-colors duration-300"
         >
             <GithubIcon className="w-6 h-6 text-white" />
-        </a>
+        </a> */}
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {PROJECTS_DATA.map((project) => (
